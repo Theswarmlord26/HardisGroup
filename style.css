@@ -1,4 +1,9 @@
-body{
+body {
+  display: flex;
+  background: #333;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 100vh;
   display: block;
 }
 .header{
@@ -43,7 +48,7 @@ body{
   font-family: "Poppins", sans-serif;
 }
 
-body footer{
+body {
   display: flex;
   background: #333;
   justify-content: flex-end;
