@@ -1,16 +1,25 @@
+body{
+  display: block;
+}
 .header{
   background-color: black;
   display: flex;
   width: 100%;
+
+  & img{
+    width: 20%;
+    height: auto;
+  }
 }
 .header ul{
   display: flex;
+  width: 75%;
 }
 .header ul li{
   margin: auto;
 }
 .header ul li a{
-  color: #fff;
+  color: #fff;  
 }
 
 /*services*/
