@@ -3,7 +3,7 @@ body {
   display: block;
   margin: 0;
 }
-.header{
+header{
   background-color: black;
   display: flex;
   width: 100%;
@@ -15,16 +15,16 @@ body {
     height: auto;
   }
 }
-.header ul{
+header ul{
   display: flex;
   width: 75%;
 }
-.header ul li{
+header ul li{
   margin: auto;
   height: 30%;
   display: flex;
 }
-.header ul li a{
+header ul li a{
   color: #fff;
   margin: auto;
   text-decoration: none;
@@ -46,14 +46,14 @@ body {
 
 /*footer*/
 
-.footer * {
+footer * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 
-.footer {
+footer {
   position: relative;
   margin-top: 40%;
   width: 100%;
@@ -107,7 +107,7 @@ body {
   opacity: 1;
 }
 
-.footer p {
+footer p {
   color: #fff;
   margin: 15px 0 10px 0;
   font-size: 1rem;
