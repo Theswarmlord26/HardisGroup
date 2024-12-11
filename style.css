@@ -1,3 +1,9 @@
+.header{
+  background-color: black;
+  color: #fff;
+}
+
+/*services*/
 .services li {
     display: flex;
     flex-direction: column;
