@@ -1,9 +1,9 @@
 body {
-  display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   min-height: 100vh;
   display: block;
+  margin: none;
 }
 .header{
   background-color: black;
@@ -53,14 +53,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-}
-
-body {
-  display: flex;
-  background: #333;
-  justify-content: flex-end;
-  align-items: flex-end;
-  min-height: 100vh;
 }
 
 .footer {
