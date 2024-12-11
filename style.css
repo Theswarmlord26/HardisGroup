@@ -63,7 +63,7 @@ footer * {
   font-family: "Poppins", sans-serif;
 }
 
-footer {
+.footer {
   position: relative;
   margin-top: 40%;
   width: 100%;
