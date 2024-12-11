@@ -1,9 +1,7 @@
 body {
-  justify-content: flex-end;
-  align-items: flex-end;
   min-height: 100vh;
   display: block;
-  margin: none;
+  margin: 0;
 }
 .header{
   background-color: black;
@@ -57,6 +55,7 @@ body {
 
 .footer {
   position: relative;
+  margin: 30%;
   width: 100%;
   background: #3586ff;
   min-height: 100px;
