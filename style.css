@@ -1,6 +1,20 @@
+body{
+  width: 100%;
+}
 .header{
   background-color: black;
+  display: flex;
+  width: 100%;
+}
+.header ul{
+  display: flex;
+}
+.header ul li{
+  margin: auto;
+}
+.header ul li a{
   color: #fff;
+
 }
 
 /*services*/
